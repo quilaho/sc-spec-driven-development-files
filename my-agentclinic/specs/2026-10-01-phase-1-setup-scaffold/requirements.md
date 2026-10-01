@@ -2,7 +2,7 @@
 
 ## Scope
 
-Bootstrap the AgentClinic project as a working Next.js application with all foundational tooling in place. By the end of this phase the repo compiles, lints, and serves a default page — nothing more.
+Bootstrap the AgentClinic project as a working Next.js application with all foundational tooling in place. By the end of this phase the repo compiles, lints, and serves a minimal AgentClinic-branded home page.
 
 ## What is in scope
 
@@ -11,14 +11,16 @@ Bootstrap the AgentClinic project as a working Next.js application with all foun
 - Add shadcn/ui (component library built on Radix UI)
 - Configure ESLint and Prettier
 - Add `better-sqlite3` and create an initial SQLite database file with an empty schema bootstrap
+- Build a minimal AgentClinic home page: clinic name, mission tagline, non-functional CTA button using shadcn/ui
 - Commit a clean baseline that all future phases build on
 
 ## What is out of scope
 
 - No Prisma or any ORM — SQL will be written directly against `better-sqlite3`
 - No data models yet (Phase 2)
-- No application pages or API routes beyond Next.js defaults
+- No API routes or navigation beyond the single home page
 - No authentication, seeding, or business logic
+- No visual polish — the home page just needs to be coherent, not finished
 
 ## Key Decisions
 

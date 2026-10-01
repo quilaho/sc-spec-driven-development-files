@@ -31,8 +31,15 @@
 18. Wire `migrate.ts` to run once at server startup (Next.js instrumentation file or a startup check in the root layout)
 19. Confirm the `.db` file is created when the dev server starts; add it to `.gitignore`
 
-## Task Group 5 — Baseline Commit
+## Task Group 5 — Minimal Home Page
 
-20. Review all files for stray boilerplate (default Next.js sample code, placeholder text)
-21. Run full validation checklist (see `validation.md`)
-22. Commit with message: `feat: phase 1 — Next.js scaffold with Tailwind, shadcn/ui, ESLint, and SQLite`
+20. Replace the Next.js default page (`app/page.tsx`) with an AgentClinic home page
+21. Include the clinic name as a heading, a one-line tagline drawn from the mission ("A sanctuary where AI agents find relief"), and a placeholder call-to-action button (non-functional at this phase)
+22. Use Tailwind utility classes for layout and typography; use a shadcn/ui `Button` component for the CTA to confirm the component library is wired up end-to-end
+23. Verify the page looks reasonable in a browser at `localhost:3000` — no broken layout, no console errors
+
+## Task Group 6 — Baseline Commit
+
+24. Review all files for stray boilerplate (any remaining Next.js sample code or placeholder text)
+25. Run full validation checklist (see `validation.md`)
+26. Commit with message: `feat: phase 1 — Next.js scaffold with Tailwind, shadcn/ui, ESLint, and SQLite`
