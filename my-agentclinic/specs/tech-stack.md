@@ -25,6 +25,10 @@ We use **Next.js** as the full-stack framework for AgentClinic.
 - **SQLite** — embedded relational database; zero infrastructure overhead for early phases
 - **better-sqlite3** — lightweight, synchronous SQLite driver; SQL queries written directly, no ORM needed at this scale
 
+## Testing
+
+- **Vitest** — unit and integration test runner; fast, native TypeScript support, compatible with the Next.js toolchain
+
 ## Tooling
 
 - **ESLint + Prettier** — code quality and formatting
