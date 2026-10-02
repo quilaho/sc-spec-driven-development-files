@@ -20,6 +20,18 @@ We use **Next.js** as the full-stack framework for AgentClinic.
 - **Tailwind CSS** — utility-first styling for a clean, attractive UI
 - **shadcn/ui** — accessible, composable component library built on Radix UI; powers the staff and agent dashboard
 
+### Responsive Design
+
+The web UI is responsive across all supported screen sizes. Every UI feature must meet these standards:
+
+- **Mobile-first** — write base styles for the smallest screen, then layer on larger layouts with Tailwind's default breakpoints (`sm` 640px, `md` 768px, `lg` 1024px, `xl` 1280px)
+- **Supported widths** — 320px phones through 1440px+ desktops, in portrait and landscape
+- **No horizontal page scroll** — content reflows to fit the viewport; wide content such as data tables scrolls inside its own container or collapses into a stacked layout
+- **Readable type** — headings scale with the viewport; body text stays at 16px or larger on mobile
+- **Touch-friendly** — primary interactive targets are at least 44×44px on touch screens
+- **Adaptive navigation** — navigation collapses into a menu on small screens
+- **Viewport** — pages render with `width=device-width, initial-scale=1`
+
 ## Data
 
 - **SQLite** — embedded relational database; zero infrastructure overhead for early phases

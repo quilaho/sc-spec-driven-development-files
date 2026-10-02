@@ -36,10 +36,12 @@
 20. Replace the Next.js default page (`app/page.tsx`) with an AgentClinic home page
 21. Include the clinic name as a heading, a one-line tagline drawn from the mission ("A sanctuary where AI agents find relief"), and a placeholder call-to-action button (non-functional at this phase)
 22. Use Tailwind utility classes for layout and typography; use a shadcn/ui `Button` component for the CTA to confirm the component library is wired up end-to-end
-23. Verify the page looks reasonable in a browser at `localhost:3000` — no broken layout, no console errors
+23. Make the layout mobile-first: base styles for phones, with `sm:` breakpoints scaling up the heading, tagline, and padding; the CTA spans the full width on phones and sizes to its content from `sm` up
+24. Export `viewport` (`width=device-width, initial-scale=1`) from the root layout
+25. Verify the page looks reasonable in a browser at `localhost:3000` at 320px, 768px, and 1280px widths — no broken layout, no horizontal scroll, no console errors
 
 ## Task Group 6 — Baseline Commit
 
-24. Review all files for stray boilerplate (any remaining Next.js sample code or placeholder text)
-25. Run full validation checklist (see `validation.md`)
-26. Commit with message: `feat: phase 1 — Next.js scaffold with Tailwind, shadcn/ui, ESLint, and SQLite`
+26. Review all files for stray boilerplate (any remaining Next.js sample code or placeholder text)
+27. Run full validation checklist (see `validation.md`)
+28. Commit with message: `feat: phase 1 — Next.js scaffold with Tailwind, shadcn/ui, ESLint, and SQLite`
