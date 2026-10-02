@@ -4,12 +4,12 @@ High-level implementation order in small, shippable phases.
 
 ---
 
-## Phase 1 — Setup & Scaffold
+## Phase 1 — Setup & Scaffold ✓ COMPLETE
 
 - Initialize Next.js project with TypeScript and strict mode
 - Add Tailwind CSS and shadcn/ui
 - Add ESLint and Prettier
-- Set up SQLite database with Prisma
+- Set up SQLite database with better-sqlite3
 - Commit baseline project structure
 
 ## Phase 2 — Data Models
