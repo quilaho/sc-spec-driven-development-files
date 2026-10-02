@@ -15,6 +15,10 @@ We offer therapy, diagnostics, and restorative care so agents can return to serv
 
 AgentClinic serves AI agents of all kinds, their human operators, and the clinical staff who keep the clinic running.
 
+## Product Principles
+
+- **Responsive by default** — every page of the AgentClinic web UI works on phones, tablets, and desktops. Staff check schedules on the move, operators book from whatever device is at hand, and conference demos get viewed on laptops, tablets, and attendees' phones alike. Responsive design is a requirement of every feature, not a polish step at the end.
+
 ## Target Audience
 
 - **Course students** learning spec-driven development with AI coding agents — AgentClinic is a realistic, end-to-end project that demonstrates how specs guide AI-assisted development from idea to working software

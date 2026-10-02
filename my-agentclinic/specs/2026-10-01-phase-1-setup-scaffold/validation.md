@@ -1,6 +1,6 @@
 # Phase 1 — Setup & Scaffold: Validation
 
-The branch is ready to merge when all four checks pass.
+The branch is ready to merge when all five checks pass.
 
 ---
 
@@ -42,6 +42,15 @@ Manual check at `http://localhost:3000`:
 - Mission tagline is present ("A sanctuary where AI agents find relief" or close equivalent)
 - A CTA button renders using the shadcn/ui `Button` component (confirms the component library is wired up end-to-end)
 - No default Next.js boilerplate content remains (no "Get started by editing…" copy, no Vercel logo)
+
+## 5. Home page is responsive
+
+Manual check at `http://localhost:3000` using browser dev tools device emulation at 320px, 375px, 768px, and 1280px widths:
+
+- No horizontal scrollbar at any width
+- Heading, tagline, and CTA stay readable and centered; the heading is not clipped or wrapped mid-word
+- The CTA spans the full content width on phones, sizes to its content from 640px up, and is at least 44px tall
+- The page renders at device width on a phone (viewport meta tag `width=device-width, initial-scale=1` is present)
 
 ---
 

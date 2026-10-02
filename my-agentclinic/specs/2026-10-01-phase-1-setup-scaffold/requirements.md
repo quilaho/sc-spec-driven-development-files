@@ -12,6 +12,7 @@ Bootstrap the AgentClinic project as a working Next.js application with all foun
 - Configure ESLint and Prettier
 - Add `better-sqlite3` and create an initial SQLite database file with an empty schema bootstrap
 - Build a minimal AgentClinic home page: clinic name, mission tagline, non-functional CTA button using shadcn/ui
+- Make the home page responsive, mobile-first, from 320px phones to desktop (see [tech-stack.md](../tech-stack.md#responsive-design))
 - Commit a clean baseline that all future phases build on
 
 ## What is out of scope
@@ -20,7 +21,7 @@ Bootstrap the AgentClinic project as a working Next.js application with all foun
 - No data models yet (Phase 2)
 - No API routes or navigation beyond the single home page
 - No authentication, seeding, or business logic
-- No visual polish — the home page just needs to be coherent, not finished
+- No visual polish — the home page just needs to be coherent, not finished (it must still be responsive)
 
 ## Key Decisions
 
@@ -30,6 +31,7 @@ Bootstrap the AgentClinic project as a working Next.js application with all foun
 | Database | SQLite via `better-sqlite3` | Zero infrastructure, synchronous driver, sufficient for early phases |
 | Framework | Next.js App Router, TypeScript strict | Full-stack in one project; widely adopted; aligns with Mary and Steve's requirements |
 | Styling | Tailwind CSS + shadcn/ui | Utility-first + accessible composable components for the dashboard |
+| Responsive design | Mobile-first Tailwind breakpoints from the first page | Responsive design is a product principle (mission.md); retrofitting it later costs more than building it in |
 
 ## Context
 
